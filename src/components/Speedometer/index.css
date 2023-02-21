@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #07080c;
+  text-align: center;
+  background-size: cover;
+  padding-top: 10px;
+}
+.bg-image {
+  height: 600px;
+  width: 850px;
+}
+.bg-heading {
+  color: #ffffff;
+}
+.accelerate-button {
+  height: 30px;
+  width: 120px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.break-button {
+  height: 30px;
+  width: 120px;
+  margin-right: 20px;
+  text-align: center;
+  background-color: transparent;
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+  border: solid #94a3b8 3px;
+
+  border-radius: 5px;
+}
+.speed-heading {
+  color: #cbd5e1;
+}
+.speed-description {
+  color: #cbd5e1;
+}
+@media screen and (max-width: 767px) {
+  .bg-container {
+    width: 70%;
+    height: 100vh;
+  }
+  .bg-image {
+    height: 50%;
+    width: 50%;
+  }
+}
